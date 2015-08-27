@@ -221,14 +221,15 @@
                 NSString *classDecription = [[tempObject class] description];
                 BOOL isInteger = NO;
                 BOOL isDouble = NO;
+
                 if([number isKindOfClass:[NSNull class]]) {
                     // Huh - that's interesting.
                     isDouble = YES;
                 } else {
                     NSNumber *tempIntNumber = @([number integerValue]);
-                    NSNumber *tempDoubleNumber = @([number doubleValue]);
-                    
-                    isDouble = [[number stringValue] isEqualToString:[tempDoubleNumber stringValue]];
+
+					// This whole decision making "if" craziness needs to be refactored.
+					isDouble = strcmp (number.objCType, @encode (double)) == 0;
                     isInteger = [[number stringValue] isEqualToString:[tempIntNumber stringValue]];
                 }
                 
