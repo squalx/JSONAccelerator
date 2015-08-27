@@ -228,7 +228,7 @@
                 } else {
                     NSNumber *tempIntNumber = @([number integerValue]);
 
-					// This whole decision making if craziness needs to be refactored.
+					// This whole decision making "if" craziness needs to be refactored.
 					isDouble = strcmp (number.objCType, @encode (double)) == 0;
                     isInteger = [[number stringValue] isEqualToString:[tempIntNumber stringValue]];
                 }
