@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>679F47CB-EFB6-43E6-8565-C22C969DB255</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JSONAccelerator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>61E0E7D55227A492928159D7EC6FB8B33F73BD2D</key>
+		<string>https://github.com/squalx/JSONAccelerator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JSONAccelerator.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>61E0E7D55227A492928159D7EC6FB8B33F73BD2D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/squalx/JSONAccelerator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>61E0E7D55227A492928159D7EC6FB8B33F73BD2D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>61E0E7D55227A492928159D7EC6FB8B33F73BD2D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JSONAccelerator</string>
+		</dict>
+	</array>
+</dict>
+</plist>

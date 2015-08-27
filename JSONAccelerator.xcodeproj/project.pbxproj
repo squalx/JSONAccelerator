@@ -1065,6 +1065,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Nerdery Interactive Labs";
+				TargetAttributes = {
+					441FC4E11462D8E1007BF9DC = {
+						DevelopmentTeam = 7JL5DV5L33;
+					};
+				};
 			};
 			buildConfigurationList = 441FC4DC1462D8E1007BF9DC /* Build configuration list for PBXProject "JSONAccelerator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1550,6 +1555,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = JSONModeler.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1560,6 +1566,7 @@
 				INFOPLIST_FILE = "JSONModeler/JSONAccelerator-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "JSON Accelerator";
+				PROVISIONING_PROFILE = "";
 				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1571,6 +1578,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = JSONModeler.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1581,6 +1589,7 @@
 				INFOPLIST_FILE = "JSONModeler/JSONAccelerator-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "JSON Accelerator";
+				PROVISIONING_PROFILE = "";
 				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
 				WRAPPER_EXTENSION = app;
 			};
